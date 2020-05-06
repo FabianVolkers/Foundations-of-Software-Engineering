@@ -14,7 +14,7 @@ This repository holds sample solutions for the foundations challenges. Additiona
 Sample solutions for the challenges can be found [here](./challenges).
 
 ## Knowledge base
-Have a look at the wiki if you are struggling to find resources on a certain topic
+Have a look at the [wiki](https://github.com/FabianVolkers/Foundations-of-Software-Engineering/wiki) if you are struggling to find resources on a certain topic
 
 ## FAQs
-Have a look at this repo's issues to find FAQs and feel free to open a new issues if you think something is missing. 
+Have a look at this repo's [issues](https://github.com/FabianVolkers/Foundations-of-Software-Engineering/issues) to find FAQs and feel free to open a new issues if you think something is missing. 
