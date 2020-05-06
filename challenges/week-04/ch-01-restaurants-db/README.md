@@ -1,0 +1,12 @@
+Create a website which lists all of the restaurants in Kreuzberg, getting the data from a database. When you are done, please submit a link to the GitHub repository here, as well as a screenshot of the website running.
+
+In this exercise, we are taking what we have done in class today - reading information from a relational database with Python - and combine it with what we did with the color check website - displaying dynamically generated HTML, created by Python, based on information read into the backend (last time, it was a txt file, this time, it's a database).
+
+The website should generate HTML which is meaningful and show a list of the restaurants in Kreuzberg. You can give it the header “Restaurants in Kreuzberg”, and then list restaurants off with bullet points. The information for this html page be should generated from the information in the database. Once you think you are done, add a new restaurant to the database directly (maybe using the SQLite Browser, or the command line, or Python), and check if the website automatically updates.
+
+Here are some detailed instructions:
+- Create a new repository called restaurants for this assignment.
+- For the webserver, you can use one of the "server.py" files we have used in the past.
+- For the part where python reads from a database, you can use the code we used in class today, from the Foundations/databases GitHub repository (linked below).
+- In order to "connect" these 2 things, consider how we have done it with the color-check assignment: when a user does something specific, you trigger a Python script. In this case, that "action" can be going to the index page; you do not need to have a button to trigger this. In this case, you need to read the database into memory, and then process the data a bit. The attached resource on String Formatting in Python may help.
+- When writing the SQL, it is good to consider flexibility in the code. Right now, I am asking you to display one page with a list of all restaurants in Kreuzberg. For this query, you can run a single SQL query which selects on a certain, hard-coded foreign key, corresponding to the neighborhood. What if a user is allowed to first select a neighborhood from a list - do you really want to hard-code an SQL query for each neighborhood in Berlin, or is there a way to make it more flexible? What if you want to show a new page with all of the restaurants in Neukölln - how much of the code would you have to copy-paste?
