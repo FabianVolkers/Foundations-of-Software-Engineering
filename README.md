@@ -18,3 +18,8 @@ Have a look at the [wiki](https://github.com/FabianVolkers/Foundations-of-Softwa
 
 ## FAQs
 Have a look at this repo's [issues](https://github.com/FabianVolkers/Foundations-of-Software-Engineering/issues) to find FAQs and feel free to open a new issues if you think something is missing. 
+
+## Working with this repository 
+After cloning both this repository and [the wiki](Foundations-of-Software-Engineering.wiki ), create a symbolic link in order to test the full structure locally. 
+
+`ln -s ../Foundations-of-Software-Engineering.wiki wiki`
