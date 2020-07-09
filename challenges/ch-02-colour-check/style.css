@@ -1,0 +1,28 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+h1, p {
+    text-align: center;
+  }
+  .form-example {
+    text-align: center;
+    border-radius: 24px;
+  }
+
+input[type=text] {
+    width: 30%;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin-top: 1%;
+  }
+
+  input[type=submit] {
+    width: 10%;  
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin-top: 1%;
+    font-size: large;
+  }
