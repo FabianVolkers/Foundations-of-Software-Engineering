@@ -4,7 +4,6 @@ import cgi
 form = cgi.FieldStorage()
 entered_color = form.getvalue('color')
 
-#path = "/Users/matthias.bothe/code/foundations/color-check/cgi-bin/colors.txt"
 data = open("cgi-bin/colors.txt", "r")
 content = data.read() 
 
