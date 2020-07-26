@@ -12,7 +12,7 @@ Explanation of files:
 
 1. `index.html`
    
-    This file is generated and served by server.py. It holds all the html for our rstaurants page.
+    This file is generated and served by server.py. It holds all the html for our restaurants page.
 
 1. `restaurants.txt`
 
@@ -24,7 +24,7 @@ Explanation of files:
 
 1. `style.css`
    
-   The CSS file is optional for the functionality we want to implement. It does make the website look a bit nicer however.
+   The CSS file is optional for the functionality we want to implement. It does make the website look a bit more pleasing to look at however.
 
 Credits: Fabian Volkers' reference solution to this problem in Foundation 2020. 
 
