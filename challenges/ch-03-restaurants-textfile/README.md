@@ -4,7 +4,9 @@ The Restaurants Assignment is in Google Classrooms. The explanation can be found
 
 Run the solution yourself at the command line: 
 
-`python3 server.py`
+```bash
+python3 server.py
+```
 
 Explanation of files: 
 
