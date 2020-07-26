@@ -1,4 +1,4 @@
-The Restaurants Assignment is in Google Classrooms. The explanation can be found in the [wiki](/wiki/Challenges/Restaurants-txt).
+The Restaurants Assignment is in Google Classrooms. The explanation can be found in the [wiki](../../wiki/Challenges/Restaurants-txt).
 
 #### Solution 
 
