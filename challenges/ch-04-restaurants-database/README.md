@@ -1,4 +1,4 @@
-The Restaurants Assignment is in Google Classrooms. The explanation can be found in the [wiki](wiki/Restaurants-Database).
+The Restaurants Assignment is in Google Classrooms. The explanation can be found in the [wiki](../../../../wiki/Restaurants-Database).
 
 The solution is rather similar to that of the previous Restaurants challenge. You'll find that we no longer need the `restaurants.txt` and are now working with `restaurants.db`
 Run the solution yourself at the command line: 

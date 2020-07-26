@@ -9,6 +9,7 @@ This repository is aimed at students from CODE University of Applied Sciences ta
 - [Working with this repository](#working-with-this-repository)
   - [Symlink](#symlink)
   - [Git submodule](#git-submodule)
+  - [Relative Links to the wiki](#relative-links-to-the-wiki)
 
 ## Overview
 This repository holds sample solutions for the foundations challenges. Additionally, this repo's wiki serves as a knowledge base for all topics related to the course. Ranging from programming all the way to deployment.
@@ -30,3 +31,9 @@ After cloning both this repository and [the wiki](Foundations-of-Software-Engine
 
 ### Git submodule
 The wiki repo has also been added as a submodule to this main repository. For insntructions on how to use submodules check out this [link](https://brendancleary.com/2013/03/08/including-a-github-wiki-in-a-repository-as-a-submodule/)
+
+
+### Relative Links to the wiki
+In order to link from a README file in the main repository to the wiki using relative paths, use this structure 
+`../../../../wiki/filename`
+the amount of `../`'s depends on how deeply nested the current readme is. Directories in the wiki repository get ignored for some reason, same with `.md` extensions, so `/challenges/Color-Check.md` gets linked to using `../../Color-Check`

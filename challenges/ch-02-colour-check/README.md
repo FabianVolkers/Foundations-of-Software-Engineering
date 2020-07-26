@@ -1,4 +1,4 @@
-The color check assignment is in Google Classrooms, and the explanation can be found [in the wiki](/wiki/Challenges/Color-Check)
+The color check assignment is in Google Classrooms, and the explanation can be found [in the wiki](../../../../wiki/Color-Check)
 
 #### Solution 
 
