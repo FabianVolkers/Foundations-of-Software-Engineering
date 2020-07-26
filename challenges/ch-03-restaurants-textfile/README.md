@@ -22,5 +22,9 @@ Explanation of files:
 
     This file holds all the logic for our website. It generates the html based on the `restaurants.txt` file and serves `index.html` to the requesting client.
 
+1. `style.css`
+   
+   The CSS file is optional for the functionality we want to implement. It does make the website look a bit nicer however.
+
 Credits: Fabian Volkers' reference solution to this problem in Foundation 2020. 
 
