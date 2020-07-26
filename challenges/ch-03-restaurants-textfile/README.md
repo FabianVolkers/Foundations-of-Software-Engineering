@@ -1,14 +1,24 @@
 The Restaurants Assignment is in Google Classrooms. The explanation can be found in the [wiki](/wiki/Challenges/Restaurants-txt).
 
-Create a website which lists restaurants in Berlin together with the neighborhood they are in, taking that information from a text file. There should be at least 3 restaurants listed.
+#### Solution 
 
-This exercise practices:
-- setting up a repository for software development using git
-- separating data (the restaurant list) from logic (the code which generates the website)
-- dynamic webpage generation
-- the principle of a single source of truth
-- Python, HTML, CSS, and Networking
-- Use of classes and designing a simple data model
+Run the solution yourself at the command line: 
 
-We will launch these websites live on the real internet in class on Thursday, and we will continue building on this project in future weeks.
+`python3 server.py`
+
+Explanation of files: 
+
+1. `index.html`
+   
+    This file is generated and served by server.py. It holds all the html for our rstaurants page.
+
+1. `restaurants.txt`
+
+    This file holds all the names and neighbourhoods of the restaurants we want to display on our website.
+
+1. `server.py`
+
+    This file holds all the logic for our website. It generates the html based on the `restaurants.txt` file and serves `index.html` to the requesting client.
+
+Credits: Fabian Volkers' reference solution to this problem in Foundation 2020. 
 
