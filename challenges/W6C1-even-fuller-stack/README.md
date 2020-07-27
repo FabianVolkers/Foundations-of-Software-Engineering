@@ -1,0 +1,1 @@
+The even fuller stack assignment is in Google Classrooms

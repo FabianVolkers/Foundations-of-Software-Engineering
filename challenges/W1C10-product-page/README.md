@@ -1,0 +1,1 @@
+The product page assignment is in google classrooms
