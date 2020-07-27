@@ -1,0 +1,46 @@
+#title {
+    text-align: center;
+  }
+  
+  .form-row {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  label {
+    vertical-align: middle;
+  }
+  
+  .single-row-input {
+    float: right;
+    width: 80%;
+  }
+  
+  .checkboxes,
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+  
+  #submit {
+    background-color: #3d3d33;
+    color: #ffffff;
+    margin-left: 33%;
+    width: 34%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  li {
+    position: relative;
+    left: -20px;
+    margin-left: 10px;
+    display: block;
+  }
+  
+  .survey-content {
+    background-color: ;
+  }
+  

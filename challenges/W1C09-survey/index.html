@@ -1,0 +1,95 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="./css/main.css">
+
+<body style="background-image:url(https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+  <!-- start survey form -->
+  <h1 id="title"> Cycling Survey</h1>
+  <div class="row">
+    <div class="col-lg-4 col-sm-0">
+    </div>
+    <div class="col-lg-4 col-sm-12 survey-content">
+      <p id="description">This survey is aimed at finding out commuters cycling preferences with the hope that this data can help shape future urban infrastructure planning</p>
+    </div>
+    <div class="col-lg-4 col-sm-0">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-sm-0">
+    </div>
+    <div class="col-lg-4 col-sm-12 survey-content">
+      <form id="survey-form">
+        <div class="form-row">
+          <label id="name-label" for="name">Name*</label>
+          <input class="single-row-input" id="name" autofocus type="text" name="name" placeholder="Your name here" required>
+        </div>
+        <div class="form-row">
+          <label id="email-label" for="email">Email*</label>
+          <input class="single-row-input" id="email" autofocus type="email" name="email" placeholder="Your email here" required>
+        </div>
+        <div class="form-row">
+          <label id="number-label" for="age">Age*</label>
+          <input class="single-row-input" id="number" autofocus type="number" name="age" required min="1" max="125" placeholder="Age">
+        </div>
+        <div class="form-row">
+          <label for="dropdown">How often do you commute by bicycle</label>
+          <select id="dropdown">
+          <option disabled selected value>Select an option</option>
+    <option value="always">Always</option>
+    <option value="weather">When the weather is nice</option>
+    <option value="occasionally">Occasionally</option>
+    <option value="summer">In summer</option>
+    <option value="regularly">Regularly</option>
+  </select>
+        </div>
+        <div class="form-row">
+          <label for="radio">What do you find most dangerous/scary when commuting by bicycle?</label>
+          <ul id="radio">
+            <li>
+              <label>Vehicles passing too close by<input class="checkboxes" type="radio" id="vehicles" value="vehicles" name="radio-buttons"></label>
+            </li>
+            <li>
+              <label>Trucks/Lorries turning right<input class="checkboxes" type="radio" id="turning-right" value="turning-right" name="radio-buttons">
+          </label></li>
+            <li>
+              <label>Vehicles parked on bike lane<input class="checkboxes" type="radio" id="parked" value="parked" name="radio-buttons"></label>
+            </li>
+          </ul>
+        </div>
+        <div class="form-row">
+          <label for="improvements">What infrastructure and policies should be improved? Check all that apply.</label>
+          <ul id="improvements">
+            <li>
+              <label>Better, safer & wider Bike lanes<input class="checkboxes" type="checkbox" name="checkboxes" value="1"></label>
+            </li>
+            <li>
+              <label class="check-label">Make parking more expensive<input class="checkboxes" type="checkbox" name="checkboxes" value="2"></label>
+            </li>
+            <li>
+              <label>Separate green lights for cyclists<input class="checkboxes" type="checkbox" name="checkboxes" value="3"></label>
+            </li>
+            <li>
+              <label>Maximum speed limit in cities of 30 km/h<input class="checkboxes" type="checkbox" name="checkboxes" value="4"></label>
+            </li>
+            <li>
+              <label>Public e-bike chargers and diy repair shops<input class="checkboxes" type="checkbox" name="checkboxes" value="5"></label>
+            </li>
+          </ul>
+        </div>
+        <div class="form-row">
+          <label>Any further comments, suggestions, ideas?</label>
+          <textarea placeholder="your suggestions here" cols="50" rows="4"></textarea>
+        </div>
+        <div class="form-row">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-lg-4 col-sm-0">
+    </div>
+  </div>
+</body>
+<footer style="text-align:center; color:#fff;"><hr><p>Written and coded by <a style="color:#fff" href="https://www.fabianvolkers.com/" targer="_blank">Fabian Volkers</a> 2019</p></footer>
