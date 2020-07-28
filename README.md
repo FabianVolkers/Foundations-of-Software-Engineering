@@ -28,19 +28,27 @@ The wiki repo is a submodule to the main repository. Cloning the main repo using
 
 #### Example commit workflow
 ```bash
-cd wiki
-git add wikipage.md
-git commit -m 'update wikipage'
-git push
+$ cd wiki
+$ git add wikipage.md
+$ git commit -m 'update wikipage'
+$ git push
 
-cd ..
-git status
-[...]
+$ cd ..
+$ git status
+
+On branch latest
+Your branch is up to date with 'origin/latest'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
         modified:   wiki (new commits)
-[...]
-git add wiki
-git commit -m 'update commit pointer'
-git push
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git add wiki
+$ git commit -m 'update commit pointer'
+$ git push
 ```
 
 For more information on how to use submodules check out this [link](https://brendancleary.com/2013/03/08/including-a-github-wiki-in-a-repository-as-a-submodule/)
