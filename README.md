@@ -9,6 +9,7 @@ This is the repository for the Foundations of Software Engineering course. In he
 - [Working with this repository](#working-with-this-repository)
     - [Example commit workflow](#example-commit-workflow)
   - [Relative Links to the wiki](#relative-links-to-the-wiki)
+  - [Links to Google Classrooms](#links-to-google-classrooms)
 
 ## Overview
 There are two core parts to this repository. The repository holds the reference solutions. This repo's wiki holds the explanations for the challenges. On top of that the wiki contains a growing number of guides and cheatsheets which hopefully help you in getting started as a Software Engineer.
@@ -24,7 +25,7 @@ Have a look at this repo's [issues](https://github.com/FabianVolkers/Foundations
 
 ## Working with this repository 
 
-The wiki repo is a submodule to the main repository. Cloning the main repo using `git clone https://github.com/FabianVolkers/Foundations-of-Software-Engineering.git` will also clone the submodule. It can be found in the `wiki` directory. Changing into this directory will also change the git repository you are working with. To commit new changes to the wiki proceed as you usually would. The only difference is that after updating the wiki repo, you have to add and commit the wiki repo in the main repository in order to update the commit pointer. It is important to push both the submodule as well as the main repository, otherwise the commit pointer will point to a non existent commit on everyone else's machines.
+The wiki repo is a submodule to the main repository. Cloning the main repo using `git clone --recurse-submodules https://github.com/FabianVolkers/Foundations-of-Software-Engineering.git` will also clone the submodule. It can be found in the `wiki` directory. Changing into this directory will also change the git repository you are working with. To commit new changes to the wiki proceed as you usually would. The only difference is that after updating the wiki repo, you have to add and commit the wiki repo in the main repository in order to update the commit pointer. It is important to push both the submodule as well as the main repository, otherwise the commit pointer will point to a non existent commit on everyone else's machines.
 
 #### Example commit workflow
 ```bash
@@ -58,3 +59,7 @@ For more information on how to use submodules check out this [link](https://bren
 In order to link from a README file in the main repository to the wiki using relative paths, use this structure 
 `../../../../wiki/filename`
 the amount of `../`'s depends on how deeply nested the current readme is. Directories in the wiki repository get ignored for some reason, adding `.md` extensions will link to the raw file on `githubusercontent`, so `/challenges/Color-Check.md` gets linked to using `../../Color-Check`
+
+### Links to Google Classrooms
+Because assignments in Google Classrooms can only be linked to directly once they have been published, we use Firebase Dynamic Links in this [Firebase Project](https://console.firebase.google.com/u/0/project/code-se-foundations/durablelinks/links/https:~2F~2Ffoundations.page.link). All we have to do every year is change the redirect url in the Firebase Console to point to the newly published assignments. There is also an API for both Google Classrooms and the Dynamic Links, maybe we can automate this step.
+
