@@ -12,6 +12,7 @@ This is the repository for the Foundations of Software Engineering course. In he
     - [Example commit workflow](#example-commit-workflow)
   - [Relative Links to the wiki](#relative-links-to-the-wiki)
   - [Links to Google Classrooms](#links-to-google-classrooms)
+  - [Fabi's wildest dreams](#fabis-wildest-dreams)
 
 ## Overview
 There are two core parts to this repository. The repository holds the reference solutions. This repo's wiki holds the explanations for the challenges. On top of that the wiki contains a growing number of guides and cheatsheets which hopefully help you in getting started as a Software Engineer.
@@ -69,3 +70,8 @@ the amount of `../`'s depends on how deeply nested the current readme is. Direct
 ### Links to Google Classrooms
 Because assignments in Google Classrooms can only be linked to directly once they have been published, we use Firebase Dynamic Links in this [Firebase Project](https://console.firebase.google.com/u/0/project/code-se-foundations/durablelinks/links/https:~2F~2Ffoundations.page.link). All we have to do every year is change the redirect url in the Firebase Console to point to the newly published assignments. There is also an API for both Google Classrooms and the Dynamic Links, maybe we can automate this step.
 
+### Fabi's wildest dreams
+- Automatically update Firebase Dynamic Links when new assignments get posted
+  - Combine [Classroom API](https://developers.google.com/classroom/reference/rest/v1/courses.courseWork/list?apix_params=%7B%22courseId%22%3A%22121369170019%22%2C%22courseWorkStates%22%3A%5B%22DRAFT%22%5D%7D) with [Firebase API](https://firebase.google.com/docs/dynamic-links/create-links?authuser=0#manually_constructing_a_url)
+- Automated testing for challenges using firebase 
+- 
