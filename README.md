@@ -7,6 +7,8 @@ This is the repository for the Foundations of Software Engineering course. In he
   - [Wiki](#wiki)
 - [FAQs](#faqs)
 - [Working with this repository](#working-with-this-repository)
+  - [Branches](#branches)
+  - [Wiki submodule](#wiki-submodule)
     - [Example commit workflow](#example-commit-workflow)
   - [Relative Links to the wiki](#relative-links-to-the-wiki)
   - [Links to Google Classrooms](#links-to-google-classrooms)
@@ -25,6 +27,10 @@ Have a look at this repo's [issues](https://github.com/FabianVolkers/Foundations
 
 ## Working with this repository 
 
+### Branches
+The main branch of this repo is latest. Github only supports using the master branch for the wiki pages, therefore the wiki's repository's only branch is master.
+
+### Wiki submodule
 The wiki repo is a submodule to the main repository. Cloning the main repo using `git clone --recurse-submodules https://github.com/FabianVolkers/Foundations-of-Software-Engineering.git` will also clone the submodule. It can be found in the `wiki` directory. Changing into this directory will also change the git repository you are working with. To commit new changes to the wiki proceed as you usually would. The only difference is that after updating the wiki repo, you have to add and commit the wiki repo in the main repository in order to update the commit pointer. It is important to push both the submodule as well as the main repository, otherwise the commit pointer will point to a non existent commit on everyone else's machines.
 
 #### Example commit workflow
